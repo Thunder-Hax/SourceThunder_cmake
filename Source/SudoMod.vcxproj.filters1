@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Base64">
+      <UniqueIdentifier>{8a8a84a4-33ee-4f9a-8b6d-71ae6c25da27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord">
+      <UniqueIdentifier>{b6b35586-f147-4f90-989b-887a123752d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GETHASHKEY">
+      <UniqueIdentifier>{ca32452d-288a-47ac-96da-dd02fde3ccad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Language">
+      <UniqueIdentifier>{b932e786-83df-42a8-9bf5-9fb233529657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base64\nlohmann">
+      <UniqueIdentifier>{234e8acf-43d7-4130-ad58-6066ef2b16cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{6a9b7298-9c1f-4a35-9672-0a750353c2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reclass">
+      <UniqueIdentifier>{a2696bc7-3441-4619-8875-667a6e0eb6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmt">
+      <UniqueIdentifier>{63e4174c-261d-4d54-b76c-7b7b805e2c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2a12d025-c2ec-49af-84af-2c26d0618e38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeCaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeInvoker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subs.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Authentification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadersM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mains.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="backgrounds.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="initialization.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="particlefx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsSpawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpAroundMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Raycast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAentity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAmemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scaleform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="base64caller.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleIni.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuConfig.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoonerMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoonerSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoonerEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAblip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAVehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoonerTaskSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STSTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Submenus_TaskSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STSTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Databases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="OutfitList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="PedComponentChanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationshipManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PedModelChanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponIndivs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_register.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_rpc.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="backoff.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_queue.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc_connection.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="serialization.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTimer.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GETHASHKEY.h">
+      <Filter>GETHASHKEY</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>Language</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann\json.hpp">
+      <Filter>Base64\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="Attachment.h">
+      <Filter>Base64\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="PersistOutfit.h">
+      <Filter>Base64\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptrHandler.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YoutubeDownloader.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="Support.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMenu.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="BusinessManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenPed.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt\core.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt\format.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt\format-inl.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="Crash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\classes.h">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\atRTTI.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\CBaseModelInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\CNavigation.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\CObject.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\datBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\fwArchetype.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\fwArchetypeDef.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\fwExtensibleBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\fwExtension.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\fwExtensionContainer.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\fwRefAwareBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\fwRefAwareBaseImpl.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\HashTable.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\pgBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\phArchetype.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\phBound.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\phBoundCapsule.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\base\phBoundComposite.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\camera\CCameraAngles.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\camera\CCameraManagerAngles.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\camera\CGameCameraAngles.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\draw_handlers\CEntityDrawHandler.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\draw_handlers\CObjectDrawHandler.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\draw_handlers\CPedDrawHandler.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\draw_handlers\CVehicleDrawHandler.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\draw_handlers\fwDrawData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\entities\CAttackers.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\entities\CDynamicEntity.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\entities\CEntity.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\entities\CPhysical.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\entities\fwEntity.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\enums\eExplosionTag.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\enums\eHandlingType.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\misc\CTunables.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\CProjectBaseSyncDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\CProjectSyncTree.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\netSyncDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\netSyncNodeBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\netSyncParentNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\netSyncTree.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\NodeCommonDataOperations.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\automobile\CAutomobileCreationNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\door\CDoorCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\door\CDoorMovementDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\door\CDoorScriptGameStateDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\door\CDoorScriptInfoDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\dynamic_entity\CDynamicEntityGameStateDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\entity\CEntityOrientationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\entity\CEntityScriptGameStateDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\entity\CEntityScriptInfoDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\object\CObjectCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedAIDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedAppearanceDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedAttachDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedComponentReservationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedGameStateDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedHealthDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedInventoryDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedMovementDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedOrientationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedScriptCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\ped\CPedTaskSpecificDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\physical\CPhysicalAngVelocityDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\physical\CPhysicalAttachDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\physical\CPhysicalHealthDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\physical\CPhysicalMigrationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\physical\CPhysicalScriptMigrationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\physical\CPhysicalVelocityDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\pickup\CPickupCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\pickup_placement\CPickupPlacementCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\player\CPlayerAppearanceDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\player\CPlayerCameraDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\player\CPlayerCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\player\CPlayerGamerDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\player\CPlayerGameStateDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\player\CPlayerSectorPosNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\proximity_migrateable\CGlobalFlagsDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\proximity_migrateable\CMigrationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\proximity_migrateable\CSectorDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\proximity_migrateable\CSectorPositionDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\task\CClonedGeneralSweepInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\task\ClonedTakeOffPedVariationInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\train\CTrainGameStateDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\vehicle\CVehicleCreationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\vehicle\CVehicleGadgetDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\vehicle\CVehicleProximityMigrationDataNode.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\nodes\CPedComponents.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\trees\CDynamicEntitySyncTreeBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\trees\CEntitySyncTreeBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\trees\CPhysicalSyncTreeBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\netsync\trees\CProximityMigrateableSyncTreeBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CCommunications.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\ChatData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CJoinRequestContext.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\ClanData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CMsgJoinResponse.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CMsgTextMessage.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CNetComplaintMgr.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CNetGamePlayer.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CNetGamePlayerDataMsg.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\CNetworkPlayerMgr.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\netObject.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\netPlayer.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\netPlayerMgrBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\netTime.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\Network.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\RemoteGamerInfoMsg.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\snConnectToPeerTask.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\network\snSession.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\ped\CPed.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\ped\CPedBoneInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\ped\CPedFactory.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\ped\CPedIntelligence.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\ped\CPedInventory.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\ped\CPedModelInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\ped\CPedWeaponManager.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\player\CNonPhysicalPlayerData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\player\CPlayerAngles.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\player\CPlayerInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\atArray.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\atSingleton.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\joaat.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlGamerHandle.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlGamerInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlGamerInfoBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlMetric.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlQueryPresenceAttributesContext.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlScHandle.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlSessionByGamerTaskResult.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlSessionInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\rlTaskStatus.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\sysMemAllocator.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\rage\vector.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\CGameScriptObjInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\dataList.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\GtaThread.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\HudColor.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\MPScriptData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scriptHandler.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scriptHandlerMgr.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scriptHandlerNetComponent.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scriptId.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scriptIdBase.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scriptResource.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrNativeHandler.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrNativeRegistration.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrNativeRegistrationTable.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrProgram.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrProgramTable.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrProgramTableEntry.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrThread.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrThreadContext.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\scrVector.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\Timer.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\tlsContext.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\types.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\g_AMC_playerBD.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GlobalPlayerBD.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GPBD_FM.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GPBD_FM_3.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GPBD_Kicking.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GPBD_MissionName.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GSBD.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GSBD_BlockB.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GSBD_FM.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GSBD_Kicking.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\script\globals\GSBD_PropertyInstances.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\security\ObfVar.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\security\RageSecurity.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\socialclub\FriendInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\socialclub\FriendRegistry.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\socialclub\ScInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\stats\CPlayerCardStats.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\stats\CStatsSerializationContext.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\vehicle\CAdvancedData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\vehicle\CBaseSubHandlingData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\vehicle\CCarHandlingData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\vehicle\CHandlingData.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\vehicle\CHandlingObject.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\vehicle\CVehicle.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\vehicle\CVehicleModelInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CAmmoInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CAmmoProjectileInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CAmmoRocketInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CAmmoThrownInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CHomingRocketParams.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CItemInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CWeaponBoneId.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass\GTAV-Classes\weapon\CWeaponInfo.hpp">
+      <Filter>Reclass</Filter>
+    </ClInclude>
+    <ClInclude Include="Traduction.h">
+      <Filter>Language</Filter>
+    </ClInclude>
+    <ClInclude Include="Ptolemy.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeInvoker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Authentification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadersM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mains.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="backgrounds.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Header.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="initialization.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="particlefx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsSpawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpAroundMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Raycast.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAentity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAmemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAped.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tasks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scaleform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAplayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="base64caller.cpp">
+      <Filter>Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoonerMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoonerSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoonerEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAblip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAVehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoonerTaskSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STSTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Submenus_TaskSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STSTasks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Databases.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="OutfitList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PedComponentChanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationshipManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PedModelChanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponIndivs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="discord_register_win.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord_rpc.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_win.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain2.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc_connection.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="serialization.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTimer.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GETHASHKEY.cpp">
+      <Filter>GETHASHKEY</Filter>
+    </ClCompile>
+    <ClCompile Include="Language.cpp">
+      <Filter>Language</Filter>
+    </ClCompile>
+    <ClCompile Include="Attachment.cpp">
+      <Filter>Base64\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="PersistOutfit.cpp">
+      <Filter>Base64\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="YoutubeDownloader.cpp">
+      <Filter>Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="Support.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="newMenu.cpp">
+      <Filter>Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenPed.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Crash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Traduction.cpp">
+      <Filter>Language</Filter>
+    </ClCompile>
+    <ClCompile Include="Ptolemy.cpp">
+      <Filter>Base64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoof.asm">
+      <Filter>Header Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

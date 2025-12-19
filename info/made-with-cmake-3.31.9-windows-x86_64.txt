@@ -1,0 +1,6 @@
+7z2501
+cmake-3.31.9-windows-x86_64
+Git-2.51.2-64-bit
+pandoc-3.8.2.1-windows-x86_64
+python-manager-25.0
+VisualStudioSetup

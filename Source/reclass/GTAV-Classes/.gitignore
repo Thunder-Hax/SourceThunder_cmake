@@ -1,0 +1,13 @@
+.vscode
+.vs
+build/
+*.suo
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.sln
+*.vcxproj
+*.user
+*.filters
+
